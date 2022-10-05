@@ -621,6 +621,15 @@ img {
 
 /* SOC */
 
+@keyframes rotatePics {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-720px);
+  }
+}
+
 .soc {
   /* padding: 150px 0; */
   background-color: #e5e5e5;
@@ -634,10 +643,11 @@ img {
 
 .soc-top-list {
   position: absolute;
-
-  left: -360px;
+  animation: rotatePics 10000ms linear infinite alternate;
+  /* left: -360px; */
   top: 150px;
   display: flex;
+  justify-content: start;
   gap: 100px;
 
   width: 2160px;
@@ -691,7 +701,8 @@ img {
 
 .soc-bottom-list {
   position: absolute;
-  left: -360px;
+  animation: rotatePics 10000ms linear infinite alternate;
+  /* left: -360px; */
   bottom: 150px;
   display: flex;
   gap: 100px;
