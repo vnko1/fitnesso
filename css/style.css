@@ -215,7 +215,6 @@ img {
   max-width: 703px;
   margin: 0 auto 26px;
   font-family: "Roboto";
-
   font-weight: 400;
   font-size: 62px;
   line-height: 1.14;
@@ -230,6 +229,7 @@ img {
 
 .working-list {
   display: flex;
+  justify-content: center;
   column-gap: 200px;
   row-gap: 114px;
   flex-wrap: wrap;
@@ -266,6 +266,7 @@ img {
 /* PRICE */
 
 .price {
+  width: 1440px;
   padding: 150px 0;
   background-color: #eef0f4;
   background-image: url(../images/price-bgc.jpg);
