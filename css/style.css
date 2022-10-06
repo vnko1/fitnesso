@@ -292,7 +292,8 @@ img {
 }
 
 .container.working-container {
-  padding: 0 145px;
+  /* padding: 0 145px; */
+  justify-content: center;
 }
 
 .working-title {
@@ -649,8 +650,11 @@ img {
   display: flex;
   justify-content: start;
   gap: 100px;
-
   width: 2160px;
+}
+
+.soc-top-list:hover {
+  animation-play-state: paused;
 }
 
 .soc-main-list {
@@ -710,4 +714,103 @@ img {
   width: 2160px;
 }
 
+.soc-bottom-list:hover {
+  animation-play-state: paused;
+}
+
 /* FOOTER */
+
+.footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #081158;
+}
+
+.footer-logo {
+  fill: #fff;
+}
+
+.footer-top-container {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.footer-contact-container {
+  margin-left: 331.66px;
+}
+
+.footer-paragraph-text {
+  font-family: "Red Hat Display";
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.72;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.footer-contact-text {
+  margin-bottom: 14px;
+}
+
+.footer-contact-link {
+  display: block;
+  margin-bottom: 30px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 1.78;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+}
+
+.footer-text-link {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 1.68;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+}
+
+.footer-licensing-text {
+  margin-bottom: 14px;
+}
+
+.footer-licensing-item:not(last-child) {
+  margin-bottom: 5px;
+}
+
+.footer-explore-container {
+  margin-left: 185.31px;
+}
+
+.footer-explore-text {
+  margin-bottom: 14px;
+}
+
+.footer-explore-item:not(last-child) {
+  margin-bottom: 5px;
+}
+
+.footer-payement-list {
+  display: flex;
+  gap: 65px;
+}
+.footer-payement-item {
+  width: 45px;
+  height: 29px;
+}
+.footer-payement-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+.footer-payement-icon {
+  fill: #081158;
+}
