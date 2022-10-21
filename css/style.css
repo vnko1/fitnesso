@@ -503,6 +503,8 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  overflow: hidden;
+  position: relative;
 }
 
 .creed-text {
@@ -568,10 +570,64 @@ img {
 /* PICTURE */
 .picture-container {
   height: 764px;
+  padding: 150px 0;
   background-image: url(../images/water.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.picture-content-container {
+  padding: 100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.picture-content-title {
+  margin-bottom: 34px;
+  font-weight: 400;
+  font-size: 62px;
+  line-height: 1.14;
+  text-align: center;
+  color: #081158;
+}
+
+.picture-content-text {
+  width: 767px;
+  margin: 0 auto 25px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.8;
+  color: #081158;
+}
+
+.picture-form {
+  display: flex;
+  align-items: center;
+}
+
+.picture-form-input {
+  width: 379px;
+  height: 60px;
+  padding-left: 15px;
+  margin-right: 16px;
+  background-color: rgba(32, 52, 146, 0.1);
+  border: none;
+  border-radius: 6px;
+}
+
+.picture-form-button {
+  width: 379px;
+  height: 62px;
+  padding: 0;
+  border: none;
+  background-color: #081158;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.picture-from-icon {
+  stroke: #fff;
 }
 
 /* ABOUT US */
